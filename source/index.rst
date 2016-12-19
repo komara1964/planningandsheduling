@@ -3,3 +3,4 @@
    :numbered:
 
    project_planning
+   glossary
