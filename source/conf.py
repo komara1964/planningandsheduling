@@ -195,4 +195,4 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 #pdf_language = "ru_RU"
 #pdf_font_path = ['c:/windows/fonts']
 #pdf_stylesheets = ['mst.txt']
-#pdf_style_path = ['.', 'E:/docs/source/_styles']
+#pdf_style_path = ['.', 'E:/plan_shedule/planningandsheduling/source/_styles']
