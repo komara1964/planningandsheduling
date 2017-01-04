@@ -12,19 +12,18 @@ for x in md.iter("element"):
         pnl_attr = x.find("panel_attributes")
         if pnl_attr is not None:
             s = pnl_attr.text
-            ind = s.find("--")
-            if ind <= 0:
-                out_f.write(".. py:class:: " + pnl_attr.text.rstrip() + '\n')
-                out_f.write('\n')
-            else:
-                out_f.write(".. py:class:: " + pnl_attr.text[:ind].rstrip() + '\n')
-                out_f.write('\n')
-                d = pnl_attr.text[ind:].splitlines()
-                for s in d:
-                    if s != '--':
+            d = pnl_attr.text.splitlines()
+            print(d)
+            out_f.write(".. py:class:: " + d[0] + '\n')
+            out_f.write('\n')
+            for s in d[1:]:
+                if s != '--':
+                    if s.find("(") < 0:
                         out_f.write('   .. py:attribute:: ' + s + '\n')
                         out_f.write('\n')
-                
-            
+                    else:
+                        out_f.write('   .. py:method:: ' + s + '\n')
+                        out_f.write('\n')
+                          
 out_f.close()
 print("все OK")            

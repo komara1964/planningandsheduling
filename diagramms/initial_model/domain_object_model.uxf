@@ -147,7 +147,9 @@ link
 ISBN
 number
 publication_date
-modification_date</panel_attributes>
+modification_date
+--
+get_function()-&gt;str</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
