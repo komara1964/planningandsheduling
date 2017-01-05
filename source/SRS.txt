@@ -4,30 +4,76 @@
 Функциональные требования
 =========================
 
-.. py:class:: Fg
+.. py:class:: UseCase
 
-   Орбита
+.. py:class:: Feature
+
+   .. py:attribute:: ft_name
+
+.. py:class:: Developer
+
+.. py:class:: MajorFeature
+
+   .. py:attribute:: mf_name
+
+.. py:class:: FeatureSet
+
+   .. py:attribute:: fs_name
+
+.. py:class:: TeamMember
+
+.. py:class:: UseCaseStep
+
+   .. py:attribute:: step
+
+.. py:class:: User
+
+.. py:class:: Team
+
+   .. py:attribute:: name
+
+.. py:class:: TeamLeader
+
+.. py:class:: UseCaseAlternateStep
+
+.. py:class:: ExternalDoc
+
+   Описывает документы применяемые в разработке проекта
+
+   .. py:attribute:: title
    
-   .. py:attribute:: clonr
+      заголовок документа
 
-      dfgdfg dываыв
+   .. py:attribute:: link
 
-   .. py:method:: name(sender)
+   .. py:attribute:: ISBN
 
-      :param str sender: The person sending the message
+   .. py:attribute:: number
 
-.. py:function:: compile(source : string, filename, symbol='file') -> ast object
+   .. py:attribute:: publication_date
 
-.. py:function:: send_message(sender, recipient, message_body, [priority=1])
+   .. py:attribute:: modification_date
 
-   Send a message to a recipient
+   .. py:method:: get_function() -> str
+   
+      :return: the message id
+      :rtype: str
 
-   :param str sender: The person sending the message
-   :param str recipient: The recipient of the message
-   :param str message_body: The body of the message
-   :param priority: The priority of the message, can be a number 1-5
-   :type priority: integer or None
-   :return: the message id
-   :rtype: int
-   :raises ValueError: if the message_body exceeds 160 characters
-   :raises TypeError: if the message_body is not a basestring
+.. py:class:: FunctionalRequriment
+
+.. py:class:: Restriction
+
+.. py:class:: RegulatoryCompliance
+
+.. py:class:: BusinessRule
+
+.. py:class:: NonFunctionalRequriment
+
+.. py:class:: Project
+
+   .. py:attribute:: name
+
+   .. py:attribute:: project_manager
+
+.. py:class:: TestCase
+
