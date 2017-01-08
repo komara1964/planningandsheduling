@@ -1,6 +1,6 @@
 .. toctree::
-   :maxdepth: 2
    :numbered:
+   :glob:
 
    project_planning
    SRS
