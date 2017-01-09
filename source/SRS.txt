@@ -1,6 +1,9 @@
 ﻿Функциональные требования
 *************************
-
+.. image:: img/domain_object_model.jpg
+   :align: left
+   :target: img/domain_object_model.jpg
+   
 .. py:class:: UseCase
 
 .. py:class:: Feature
