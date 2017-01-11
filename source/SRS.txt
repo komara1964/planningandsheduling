@@ -1,79 +1,27 @@
 ﻿Функциональные требования
 *************************
-.. image:: img/domain_object_model.jpg
-   :align: left
-   :target: img/domain_object_model.jpg
-   
-.. py:class:: UseCase
 
-.. py:class:: Feature
+Domain object model
+===================
 
-   .. py:attribute:: ft_name
+В разделе приведена объектная модель приложения.
+Даны описания основных классов.
 
-.. py:class:: Developer
+Контроль состояния и распределение ресурсов (RAS)
+=================================================
 
-.. py:class:: MajorFeature
+Управление персоналом
+---------------------
 
-   .. py:attribute:: mf_name
+#. Просмотреть список сотрудников (Emloye)
+#. Редактировать 
 
-.. py:class:: FeatureSet
+Администрирование
+=================
 
-   .. py:attribute:: fs_name
+Управление регистрационными данными
+-----------------------------------
 
-.. py:class:: TeamMember
-
-.. py:class:: UseCaseStep
-
-   .. py:attribute:: step
-
-.. py:class:: User
-
-.. py:class:: Team
-
-   .. py:attribute:: name
-
-.. py:class:: TeamLeader
-
-.. py:class:: UseCaseAlternateStep
-
-.. py:class:: ExternalDoc
-
-   Описывает документы применяемые в разработке проекта
-
-   .. py:attribute:: title
-   
-      заголовок документа
-
-   .. py:attribute:: link
-
-   .. py:attribute:: ISBN
-
-   .. py:attribute:: number
-
-   .. py:attribute:: publication_date
-
-   .. py:attribute:: modification_date
-
-   .. py:method:: get_function() -> str
-   
-      :return: the message id
-      :rtype: str
-
-.. py:class:: FunctionalRequriment
-
-.. py:class:: Restriction
-
-.. py:class:: RegulatoryCompliance
-
-.. py:class:: BusinessRule
-
-.. py:class:: NonFunctionalRequriment
-
-.. py:class:: Project
-
-   .. py:attribute:: name
-
-   .. py:attribute:: project_manager
-
-.. py:class:: TestCase
+Настройка параметров приложения
+-------------------------------
 

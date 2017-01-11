@@ -273,7 +273,7 @@ bg=blue</panel_attributes>
     <coordinates>
       <x>1120</x>
       <y>310</y>
-      <w>270</w>
+      <w>280</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -286,7 +286,7 @@ m2=0..n</panel_attributes>
     <coordinates>
       <x>1100</x>
       <y>380</y>
-      <w>50</w>
+      <w>60</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=-
@@ -931,27 +931,25 @@ m2=1
     <id>Relation</id>
     <coordinates>
       <x>460</x>
-      <y>80</y>
-      <w>240</w>
-      <h>110</h>
+      <y>60</y>
+      <w>150</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=1
 </panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;50.0;220.0;50.0;220.0;10.0</additional_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0;130.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>990</x>
       <y>220</y>
-      <w>90</w>
+      <w>80</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=0
+    <panel_attributes>lt=-&gt;&gt;
 </panel_attributes>
     <additional_attributes>10.0;20.0;60.0;20.0;60.0;60.0</additional_attributes>
   </element>
@@ -974,12 +972,10 @@ m2=0
     <coordinates>
       <x>750</x>
       <y>50</y>
-      <w>350</w>
+      <w>340</w>
       <h>250</h>
     </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=0
+    <panel_attributes>lt=-&gt;&gt;
 </panel_attributes>
     <additional_attributes>10.0;20.0;320.0;20.0;320.0;230.0</additional_attributes>
   </element>
@@ -991,10 +987,7 @@ m2=0
       <w>110</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=0
-</panel_attributes>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0;90.0;10.0</additional_attributes>
   </element>
   <element>
@@ -1002,12 +995,11 @@ m2=0
     <coordinates>
       <x>490</x>
       <y>0</y>
-      <w>630</w>
+      <w>620</w>
       <h>300</h>
     </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=0
+    <panel_attributes>lt=-&gt;&gt;
+
 </panel_attributes>
     <additional_attributes>10.0;20.0;600.0;20.0;600.0;280.0</additional_attributes>
   </element>
