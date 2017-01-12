@@ -812,8 +812,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1290</x>
-      <y>10</y>
+      <x>1200</x>
+      <y>20</y>
       <w>170</w>
       <h>30</h>
     </coordinates>
@@ -1004,11 +1004,13 @@ m2=1
     <id>UMLClass</id>
     <coordinates>
       <x>930</x>
-      <y>20</y>
-      <w>100</w>
-      <h>30</h>
+      <y>10</y>
+      <w>180</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>TimeSheet
+--
+work_time:TimePeriod
 bg=pink</panel_attributes>
     <additional_attributes/>
   </element>
@@ -1133,5 +1135,19 @@ m1=1
 m2=n
 </panel_attributes>
     <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1100</x>
+      <y>10</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
