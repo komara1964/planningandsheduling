@@ -1,4 +1,4 @@
 ﻿#. Сформировать список сотрудников (Emloye)
 #. Редактировать учетные данные сотрудника (Emloye)
 #. Сформировать историю обучения сотрудника
-#. kjaskjdask aklsdjlkas klasjd
+#. kjaskjdask aklsdjlkas klasjd 
