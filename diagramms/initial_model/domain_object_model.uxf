@@ -259,8 +259,8 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1500</x>
-      <y>500</y>
+      <x>970</x>
+      <y>20</y>
       <w>190</w>
       <h>80</h>
     </coordinates>
@@ -301,15 +301,15 @@ m2=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>50</y>
+      <x>860</x>
+      <y>600</y>
       <w>100</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>EmloyeRole
+    <panel_attributes>ResourseGroup
 --
-code:str
-name:str
+grp_code
+name
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
@@ -845,12 +845,15 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>540</y>
+      <x>940</x>
+      <y>500</y>
       <w>100</w>
-      <h>30</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Resourse
+--
+name
+grp_code
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
@@ -925,7 +928,7 @@ m2=n
     <panel_attributes>ActualEquipment
 --
 reg_date
-equipment_state
+equipment_status
 
 bg=pink</panel_attributes>
     <additional_attributes/>
@@ -1015,5 +1018,44 @@ m1=1
 m2=1
 </panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>40</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>SimpleClass</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>520</y>
+      <w>60</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=n
+</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>440</y>
+      <w>130</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;60.0</additional_attributes>
   </element>
 </diagram>
