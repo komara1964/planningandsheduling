@@ -912,11 +912,10 @@ m2=n
       <w>150</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>ActualEquipment
+    <panel_attributes>EquipmentActual
 --
-reg_date
-equipment_status
-</panel_attributes>
+quantity
+down_time_period</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1089,5 +1088,19 @@ m1=1
 m2=n
 </panel_attributes>
     <additional_attributes>10.0;20.0;40.0;20.0;40.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>200</y>
+      <w>70</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0;50.0;10.0</additional_attributes>
   </element>
 </diagram>
