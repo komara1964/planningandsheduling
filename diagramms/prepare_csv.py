@@ -23,28 +23,19 @@ print("**************************************")
 outf = open("C:/Users/Public/Documents/p30.txt", "w", encoding="utf-8")
 for key, value in m_f.items():
     print(key)
-<<<<<<< HEAD
     outf.write(key + "\n")
     outf.write("=".ljust(len(key), "="))
-=======
-    outf.write(key)
->>>>>>> 65863cabb793380df1bcd687b275871890174bb0
     outf.write("\n")
     outf.write("\n")
     for lk, lv in value.items():
         outf.write(lk + "\n")
         outf.write("-".ljust(len(lk), "-"))
-<<<<<<< HEAD
         outf.write("\n \n")
         offset = 0
         outf.write(".. csv-table:: \n")
         outf.write('   :header: "Код","Возможность","Риск", "Версия" \n')
         outf.write('   :widths: 10 70 10 10 \n \n')
-=======
-        outf.write("\n")
         offset = 0
-        outf.write("\n")
->>>>>>> 65863cabb793380df1bcd687b275871890174bb0
         while offset < len(lv) - 1:
             outf.write(" ".ljust(3, " "))
             outf.write('"' + lv[offset] + '"')
