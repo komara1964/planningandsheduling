@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 
 input_file = open("C:/Users/Public/Documents/p30.csv", "rt", encoding="cp1251")
 first_l = input_file.readline()
