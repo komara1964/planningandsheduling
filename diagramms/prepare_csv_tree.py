@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from anytree import Node, RenderTree, PreOrderIter
-
+from anytree.dotexport import RenderTreeGraph
 
 def parse_csv(file_name):
     input_f = open(file_name, "rt", encoding="cp1251")
@@ -24,9 +24,9 @@ def parse_csv(file_name):
                     lvl2 = node
             if lvl2 is None:
                 lvl2 = Node(d[0], parent=lvl1, lines='', dep=2)
-                lvl2.lines = lvl2.lines + '   ' + d[2] + ';' + d[3] + ';' + d[4] + ';' + d[5] + '\n'
+                lvl2.lines = lvl2.lines + '   ' + '"' + d[2] + '",' + '"' + d[3] + '",' + '"' + d[4] + '",' + '"' + d[5] + '"' + '\n'
             else:
-                lvl2.lines = lvl2.lines + '   ' + d[2] + ';' + d[3] + ';' + d[4] + ';' + d[5] + '\n'
+                lvl2.lines =  lvl2.lines + '   ' + '"' + d[2] + '",' + '"' + d[3] + '",' + '"' + d[4] + '",' + '"' + d[5] + '"' + '\n'
         return root   
     finally:
         input_f.close()
@@ -56,3 +56,4 @@ def save_res(file_name, tree):
 p = parse_csv("C:/Users/Public/Documents/p30.csv")
 save_res("C:/Users/Public/Documents/p30.txt", p)
 print(RenderTree(p))
+
