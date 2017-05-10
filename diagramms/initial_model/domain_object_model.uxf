@@ -7,13 +7,9 @@
       <x>60</x>
       <y>0</y>
       <w>150</w>
-      <h>80</h>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>Stakeholder
---
-name
-description
-responsibilities</panel_attributes>
+    <panel_attributes>Stakeholder</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -76,8 +72,8 @@ responsibilities</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>0</y>
+      <x>370</x>
+      <y>40</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -122,7 +118,7 @@ responsibilities</panel_attributes>
     <coordinates>
       <x>100</x>
       <y>230</y>
-      <w>60</w>
+      <w>50</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -134,7 +130,7 @@ m1=0..n</panel_attributes>
     <coordinates>
       <x>100</x>
       <y>310</y>
-      <w>60</w>
+      <w>50</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
@@ -265,7 +261,7 @@ m1=0..n</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>UseCaseStep</panel_attributes>
+    <panel_attributes>Step</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -278,5 +274,27 @@ m1=0..n</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>550</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>AlternateStep</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>560</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
   </element>
 </diagram>
